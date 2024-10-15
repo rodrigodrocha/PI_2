@@ -20,6 +20,7 @@ body {
   border: 1px solid;
   border-radius: 25px;
   width: 500px;
+  height: 40px;
 }
 .div-search {
   border: 1px solid transparent;
@@ -53,8 +54,8 @@ input:focus {
 .img-lupa {
   margin: 0px;
   border-radius: 5px;
-  width: 50px;
   border: 10px solid transparent;
+  height: 38px;
 }
 .div-animals {
   background-color: #cea52c;
