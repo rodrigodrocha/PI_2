@@ -1,37 +1,10 @@
 .container {
-  min-height: 100vh;
-  background: #eee;
-  padding: 30px;
-
+  padding: 15px;
 }
 
-.post {
-  background: #fff;
-  box-shadow: 0 0 10px rgb(0, 0, 0, 0.1);
-  /*COMEÇO DO EFEITO PARA O POST*/
-  transition: transform 100ms ease-in-out;
-}
-.post:hover{
-  transform: scale(1.02);
-}
- /*FIM DO EFEITO*/
-
- 
-.post-content {
-  padding: 30px;
-}
-.post img {
-  max-width: 100%;
-}
-.button-container {
-  min-height: 100px;
+.gridCards{
+  margin-top: 30px;
+  border: 1px solid transparent;
   display: flex;
-  align-items: flex-end;
-}
-
-.search-container{
-  margin-bottom: 50px;
-}
-.search-container h1 {
-  margin-bottom: 20px;
+  justify-content:space-around;
 }

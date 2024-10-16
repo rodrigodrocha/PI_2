@@ -1,0 +1,25 @@
+.buttons {
+    display: flex;
+    justify-content: space-around;
+    border: 1px solid transparent;
+    width: 300px;
+
+}
+.descricao-produto{
+    display: flex;
+    border: 1px solid transparent;
+    margin-left: 15px;
+}
+.preco{
+    align-items: end;
+    margin-left: 130px;
+    border: 1px solid transparent;
+}
+.title{
+    border: 1px solid transparent;
+    
+}
+.text{
+    font-size: 14px;
+    background-color: rgba(0, 0, 255, 0.651);
+}

@@ -1,44 +1,52 @@
 
 import Carousel from 'react-bootstrap/Carousel';
+import "./style.css";
 
 
-function CarouselFade() {
+function CarouselFade({link1, link2, link3, link4, link5, link6}) {
     return (
-      <Carousel data-bs-theme="dark">
-        <Carousel.Item>
+      <Carousel data-bs-theme="dark" className='carouselPai'>
+        <Carousel.Item className='carouselItem'>
+          <div className='div2img'>
           <img
-            className="d-block w-100"
-            src="img/canario-zaeli.jpg"
+            className="d-block w-100 carouselImg"
+            src={link1}
             alt="First slide"
           />
-          <Carousel.Caption>
-            <h5>First slide label</h5>
-            <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
-          </Carousel.Caption>
-        </Carousel.Item>
-        <Carousel.Item>
           <img
-            className="d-block w-100"
-            src="holder.js/800x400?text=Second slide&bg=eee"
-            alt="Second slide"
-          />
-          <Carousel.Caption>
-            <h5>Second slide label</h5>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-          </Carousel.Caption>
+            className="d-block w-100 carouselImg2"
+            src={link2}
+            alt="Produto"
+          />  
+          </div>
         </Carousel.Item>
-        <Carousel.Item>
+        <Carousel.Item className='carouselItem'>
+        <div className='div2img'>
           <img
-            className="d-block w-100"
-            src="holder.js/800x400?text=Third slide&bg=e5e5e5"
-            alt="Third slide"
+            className="d-block w-100 carouselImg"
+            src={link3}
+            alt="Produto"
           />
-          <Carousel.Caption>
-            <h5>Third slide label</h5>
-            <p>
-              Praesent commodo cursus magna, vel scelerisque nisl consectetur.
-            </p>
-          </Carousel.Caption>
+          <img
+            className="d-block w-100 carouselImg2"
+            src={link4}
+            alt="Produto"
+          />  
+          </div>
+        </Carousel.Item>
+        <Carousel.Item className='carouselItem'>
+        <div className='div2img'>
+          <img
+            className="d-block w-100 carouselImg"
+            src={link5}
+            alt="Produto"
+          />
+          <img
+            className="d-block w-100 carouselImg2"
+            src={link6}
+            alt="Produto"
+          />  
+          </div>
         </Carousel.Item>
       </Carousel>
     );
