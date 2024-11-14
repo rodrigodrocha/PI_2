@@ -6,12 +6,12 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 
 import './style/global.css';
 
-import { Home } from './templates/Home';
+import AppRoutes from './routes';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <Home/>
+    <AppRoutes/>
   </React.StrictMode>
 );
 

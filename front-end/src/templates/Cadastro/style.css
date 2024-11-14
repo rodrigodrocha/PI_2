@@ -1,0 +1,27 @@
+
+.cadastroLogin{
+  margin-top: 30px;
+
+}
+.formulario{
+  margin-top: 80px;
+  border: 1px solid black transparent;
+  width: 100%;
+  
+}
+.Cadastro{
+  border: 1px solid black transparent;
+  justify-itens: center;
+  width: 70%;
+}
+.button{
+  border: 1px solid black transparent;
+  color: black;
+  margin-left: 50%;
+  margin-right: 50%;
+}
+.titulo{
+  text-align: center;
+  margin-top: 20px;
+  border: 1px solid black transparent ;
+}
