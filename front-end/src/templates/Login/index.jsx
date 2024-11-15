@@ -6,11 +6,14 @@ import Col from "react-bootstrap/Col";
 import Button from "react-bootstrap/Button";
 
 import { Component } from "react";
+import Header from "../../components/Header";
 
 
 export class Login extends Component {
   render() {
     return (
+      <>
+      <Header />
       <section className="container login">
         <nav className="d-flex justify-content-center cadastroLogin">
           <button type="button" className="btn ">
@@ -37,6 +40,7 @@ export class Login extends Component {
           <Button type="submit" className="button">Cadastrar</Button>
         </Form>
       </section>
+      </>
     );
   }
 }

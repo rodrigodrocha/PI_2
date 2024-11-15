@@ -7,10 +7,13 @@ import InputGroup from "react-bootstrap/InputGroup";
 import Row from "react-bootstrap/Row";
 
 import { Component } from "react";
+import Header from './../../components/Header/index';
 
 export class Cadastro extends Component {
   render() {
     return (
+      <>
+      <Header /> 
       <section className="container Cadastro">
         <nav className="d-flex justify-content-center cadastroLogin">
           <button type="button" className="btn border-bottom" href="../Login/index.jsx">
@@ -93,6 +96,7 @@ export class Cadastro extends Component {
           <Button type="submit" className="button">Cadastrar</Button>
         </Form>
       </section>
+      </>
     );
   }
 }

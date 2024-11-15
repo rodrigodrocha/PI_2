@@ -1,0 +1,16 @@
+*{
+    margin:0;
+    padding:0;
+    border:0;
+}
+
+.header {
+    margin: 0;
+    border: 3px solid blue transparent;
+    width: 100%;
+    background-color: #3c3c3c;
+}
+
+.div_animals{
+    border: 2px solid pink transparent;
+}
